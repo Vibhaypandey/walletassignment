@@ -1,0 +1,27 @@
+<!DOCTYPE unspecified PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html lang="en" xmlns:th="http://www.thymeleaf.org">
+<head>
+</head>
+<body>
+<div class="container">
+    <div class="wallet">
+      <aside class="left-wallet">
+        <div class="wallet-head">
+          <h1> My Wallets </h1>
+          <div class="modal-open">+
+          </div>
+        </div>
+        <div class="cc-select">          
+        </div>
+      </aside>
+      <content class="right-trans">
+        <h1> Current Balance </h1>
+        <h4 id="balance"></h4>
+        <div class="trans-list">          
+        </div>
+      </content>
+    </div>
+  </div>
+th:text="${tser}
+</body>
+</html>
